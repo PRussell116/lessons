@@ -7,7 +7,7 @@ def main():
     
     win.getKey()
     win.close()
-
+#main()
 def point():
     win = GraphWin("point",500,500)
     p = Point(30,40) # try changing the value of the point
@@ -21,7 +21,7 @@ def point():
 
     win.getKey()
     win.close()
-
+#point()
 def pointCol():
     # can set the color of a point using POINTNAME . setOutline("COLOR")
 
@@ -29,7 +29,7 @@ def pointCol():
 
     # and a point in the bottom right thats red
     pass
-
+#pointCol()
 
 def circles():
     # to draw circles we need the centre of the circle (point) and a radius
@@ -54,7 +54,7 @@ def circles():
 
 
     # we can also move the circles using .move() , try circle2.move(10,20)
-
+#circles()
 
 def lines():
     # we draw lines by providing the starting point and the ending point
