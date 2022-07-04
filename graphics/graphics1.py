@@ -1,5 +1,5 @@
+import graphics
 from graphics import *
-from graphics.graphics import *
 
 def main():
     win = GraphWin("window",300,300)
